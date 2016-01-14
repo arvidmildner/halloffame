@@ -1,6 +1,62 @@
 /*!
- * aa-start-template - 
- * @author(s) Robert Smith, Andreas Glimbrant, Joel Gustaffen, Johan Palmfjord
+ 
  * @version v0.1.0
  * Copyright 2015.  Licensed.
  */
+ 
+ body{
+     background-color: #ffdb4d;
+     font-family: 'IM Fell English', serif;
+ }
+ .text-styling{
+     font-size: 40px;
+     text-align: center;
+          
+ }
+ 
+ .site-module{
+     display: block;
+     margin:100px auto auto auto;
+     
+     
+ }
+ @-webkit-keyframes hoover {
+   0%, 100% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 40px;
+  }
+  
+}
+@-moz-keyframes hoover {
+   0%, 100% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 40px;
+  }
+  
+}
+@-o-keyframes hoover {
+  0%, 100% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 40px;
+  }
+}
+@keyframes hoover {
+   0%, 100% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 40px;
+  }
+}
+ .hoovering-effect{
+  -webkit-animation: hoover 3s infinite; /* Safari 4+ */
+  -moz-animation:    hoover 3s infinite; /* Fx 5+ */
+  -o-animation:      hoover 3s infinite; /* Opera 12+ */
+  animation:         hoover 3s infinite; /* IE 10+, Fx 29+ */
+}
